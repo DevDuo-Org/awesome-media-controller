@@ -2,6 +2,12 @@
 .claude/
 context.txt
 conttext.txt
+ideaslist.txt
+
+# Local session artifacts (browser automation / scratch screenshots)
+.playwright-mcp/
+new-repo-form.png
+osc-application-review.png
 
 # Build artifacts
 *.shell-extension.zip

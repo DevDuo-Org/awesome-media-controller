@@ -4,7 +4,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 ![GNOME Shell 50](https://img.shields.io/badge/GNOME%20Shell-50-4A86CF)
-[![CI](https://github.com/Safwan2003/awesome-media-controller/actions/workflows/ci.yml/badge.svg)](https://github.com/Safwan2003/awesome-media-controller/actions/workflows/ci.yml)
+[![CI](https://github.com/DevDuo-Org/awesome-media-controller/actions/workflows/ci.yml/badge.svg)](https://github.com/DevDuo-Org/awesome-media-controller/actions/workflows/ci.yml)
 
 <!-- TODO: replace with a real hero GIF of the pill + popup in action -->
 <p align="center">
@@ -46,7 +46,7 @@ Search for **“Awesome Media Controller”** on [extensions.gnome.org](https://
 Requires **GNOME Shell 50**.
 
 ```bash
-git clone https://github.com/Safwan2003/awesome-media-controller.git
+git clone https://github.com/DevDuo-Org/awesome-media-controller.git
 cd awesome-media-controller
 ./install.sh
 ```
@@ -76,7 +76,7 @@ gnome-extensions prefs awesome-media-controller@safwan
 
 ## Compatibility
 
-Verified on **GNOME Shell 50**. Other versions are not currently tested — if you run a different version and it works (or doesn't), please [open an issue](https://github.com/Safwan2003/awesome-media-controller/issues) so the supported list can be expanded honestly.
+Verified on **GNOME Shell 50**. Other versions are not currently tested — if you run a different version and it works (or doesn't), please [open an issue](https://github.com/DevDuo-Org/awesome-media-controller/issues) so the supported list can be expanded honestly.
 
 ## Development
 
@@ -100,9 +100,9 @@ Issues and PRs are welcome — bug reports, new preset themes, and version-compa
 
 If this extension brightens your panel, consider sponsoring continued maintenance:
 
-<!-- TODO: replace with your real sponsor links -->
-- ❤️ [GitHub Sponsors](https://github.com/sponsors/Safwan2003)
-- ☕ [Ko-fi](https://ko-fi.com/Safwan2003)
+- ❤️ [GitHub Sponsors](https://github.com/sponsors/DevDuo-Org)
+<!-- Open Collective link goes here once the Collective is live (Open Source Collective fiscal host) -->
+- 🤝 Open Collective — *coming soon (pending Open Source Collective approval)*
 
 ## License
 

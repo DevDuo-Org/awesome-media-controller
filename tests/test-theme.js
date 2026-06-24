@@ -82,8 +82,8 @@ print('ThemeManager preset mode');
 function fakeSettings(values) {
     return {
         get_string(key) { return values[key]; },
-        connect() { return 1; },
-        disconnect() {},
+        connectObject() {},
+        disconnectObject() {},
     };
 }
 

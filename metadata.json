@@ -4,6 +4,9 @@
   "uuid": "awesome-media-controller@safwan",
   "settings-schema": "org.gnome.shell.extensions.awesome-media-controller",
   "shell-version": ["50"],
-  "version": 3,
-  "url": "https://github.com/Safwan2003/awesome-media-controller"
+  "version": 4,
+  "url": "https://github.com/DevDuo-Org/awesome-media-controller",
+  "donations": {
+    "github": "DevDuo-Org"
+  }
 }
