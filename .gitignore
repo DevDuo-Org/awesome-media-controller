@@ -6,8 +6,7 @@ ideaslist.txt
 
 # Local session artifacts (browser automation / scratch screenshots)
 .playwright-mcp/
-new-repo-form.png
-osc-application-review.png
+/*.png
 
 # Build artifacts
 *.shell-extension.zip
