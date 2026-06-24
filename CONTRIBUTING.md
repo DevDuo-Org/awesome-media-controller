@@ -51,9 +51,9 @@ dbus-run-session -- bash -c '
   sleep 6
   gjs -m tests/mock-player.js &> /tmp/amc-mock.log &
   sleep 2
-  gnome-extensions enable awesome-media-controller@safwan
+  gnome-extensions enable awesome-media-controller@devduo-org
   sleep 4
-  gnome-extensions info awesome-media-controller@safwan
+  gnome-extensions info awesome-media-controller@devduo-org
   kill $SHELL_PID
 '
 grep -iE "JS ERROR|Gjs-CRITICAL" /tmp/amc-shell.log || echo "CLEAN: no JS errors"

@@ -97,5 +97,34 @@ export default class AmcPreferences extends ExtensionPreferences {
         panelGroup.add(switchRow('Playback buttons in pill', 'Show prev/play/next directly in the top bar', 'show-pill-controls'));
         panelGroup.add(switchRow('Marquee titles', 'Scroll long track titles in the pill', 'enable-marquee'));
         panelGroup.add(switchRow('Animations', 'EQ bars, glow pulse, and popup transitions', 'enable-animations'));
+
+        // ── About ─────────────────────────────────────────────────────────
+        const aboutGroup = new Adw.PreferencesGroup({ title: 'About' });
+        page.add(aboutGroup);
+
+        const version = this.metadata?.version ? `v${this.metadata.version}` : '';
+        const aboutRow = new Adw.ActionRow({
+            title: 'Awesome Media Controller',
+            subtitle: `by DevDuo Innovations${version ? ` · ${version}` : ''}`,
+        });
+        aboutRow.add_prefix(new Gtk.Image({
+            icon_name: 'audio-x-generic-symbolic',
+            pixel_size: 32,
+            valign: Gtk.Align.CENTER,
+        }));
+        aboutGroup.add(aboutRow);
+
+        const linkRow = (title, subtitle, uri) => {
+            const row = new Adw.ActionRow({ title, subtitle });
+            const btn = new Gtk.LinkButton({ uri, label: 'Open', valign: Gtk.Align.CENTER });
+            row.add_suffix(btn);
+            row.activatable_widget = btn;
+            return row;
+        };
+
+        aboutGroup.add(linkRow('Project page', 'Source, issues, and releases on GitHub',
+            'https://github.com/DevDuo-Org/awesome-media-controller'));
+        aboutGroup.add(linkRow('Support development', 'Sponsor DevDuo Innovations',
+            'https://github.com/sponsors/DevDuo-Org'));
     }
 }

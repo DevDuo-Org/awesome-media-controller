@@ -1,10 +1,10 @@
 {
   "name": "Awesome Media Controller",
   "description": "Aurora Glass media controls in the GNOME top bar. Full-card popup with album art, progress, volume, shuffle, repeat, and multi-player switching.",
-  "uuid": "awesome-media-controller@safwan",
+  "uuid": "awesome-media-controller@devduo-org",
   "settings-schema": "org.gnome.shell.extensions.awesome-media-controller",
   "shell-version": ["50"],
-  "version": 4,
+  "version": 5,
   "url": "https://github.com/DevDuo-Org/awesome-media-controller",
   "donations": {
     "github": "DevDuo-Org"
