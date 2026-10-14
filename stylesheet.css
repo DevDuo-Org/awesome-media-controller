@@ -13,12 +13,24 @@
     font-size: 11px;
     font-weight: bold;
     color: #ffffff;
-    max-width: 200px;
+}
+
+.amc-fade-left {
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(15, 10, 28, 0.95);
+    background-gradient-end: rgba(15, 10, 28, 0);
+}
+
+.amc-fade-right {
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(15, 10, 28, 0);
+    background-gradient-end: rgba(15, 10, 28, 0.95);
 }
 
 .amc-pill-artist {
     font-size: 9px;
     color: rgba(255, 255, 255, 0.55);
+    max-width: 200px;
 }
 
 /* Neutral circular control button (glass chip) — hover/press handled here */
